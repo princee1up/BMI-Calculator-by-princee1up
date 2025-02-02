@@ -20,7 +20,7 @@ document.getElementById("submit").onclick = function() {
 
     // Check if the values are valid numbers
     if (isNaN(height) || isNaN(weight) || height <= 0 || weight <= 0) {
-        document.getElementById("results").textContent = "Resutls: Please enter valid height and weight.";
+        document.getElementById("results").textContent = "Results: Please enter valid height and weight." 
     } else {
         // Calculate BMI
         let bmi = weight / (height * height);
